@@ -1,0 +1,135 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CVPR 2021 Tutorial on Self-Supervised Representation Learning</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div class="container">
+  <table border="0" align="center">
+    <tr>
+      <td width="700" align="center" valign="middle"><h3>CVPR 2021 Tutorial on</h3>
+      <span class="title">Leave Those Nets Alone: <br> Advances in Self-Supervised Learning</span></td>
+    </tr>
+    <tr>
+    <td colspan="3" align="center"><h3>Sunday, June 20 2021, 10:00 - 14:30 EDT (16:00 - 20:30 CET)</h3></td>
+    </tr>
+  </table>
+  <br/>
+</div>
+
+</br>
+
+<div class="container">
+    <h2>The tutorial will be livestreamed on YouTube</h2>
+<p><a href="https://www.youtube.com/watch?v=MdD4UMshl1Q"><img src="figures/youtube_ssl_teaser.png" style="width: 100%" alt="Foo"></a></p>
+</div>
+</br>
+
+<div class="container">
+  <h2>Organizers</h2>
+ <!-- </br> -->
+   <div>
+      <div class="instructor">
+        <a href="https://scholar.google.fr/citations?user=7atfg7EAAAAJ&hl=en">
+        <div class="instructorphoto"><img src="figures/spyros.jpg"></div>
+        <div>Spyros Gidaris<br>valeo.ai</div>
+        </a>
+      </div>
+
+      <div class="instructor">
+        <a href="https://abursuc.github.io/">
+            <div class="instructorphoto"><img src="figures/andrei.jpg"></div>
+            <div>Andrei Bursuc<br>valeo.ai</div>
+        </a>
+      </div>
+
+      <div class="instructor">
+        <a href="https://www.jbalayrac.com/">
+            <div class="instructorphoto"><img src="figures/jb.png"></div>
+            <div>Jean-Baptiste Alayrac<br>DeepMind</div>
+        </a>
+      </div>
+
+      <div class="instructor">
+        <a href="http://people.csail.mit.edu/recasens/">
+            <div class="instructorphoto"><img src="figures/adria.png"></div>
+            <div>Adrià Recasens<br>DeepMind</div>
+        </a>
+      </div>
+
+      <div class="instructor">
+        <a href="https://scholar.google.com/citations?user=eiB0s-kAAAAJ&hl=fr">
+            <div class="instructorphoto"><img src="figures/mathilde.jpg"></div>
+            <div>Mathilde Caron<br>Inria / FAIR</div>
+        </a>
+      </div>
+
+      <div class="instructor">
+        <a href="https://www.olivierhenaff.com/">
+            <div class="instructorphoto"><img src="figures/olivier.jpg"></div>
+            <div>Olivier Hénaff<br>DeepMind</div>
+        </a>
+      </div>
+
+      <div class="instructor">
+        <a href="https://avdnoord.github.io/homepage/">
+            <div class="instructorphoto"><img src="figures/avdnoord.jpg"></div>
+            <div>Aäron van den Oord<br>DeepMind</div>
+        </a>
+      </div>
+
+      <div class="instructor">
+          <a href="http://www.relja.info/">
+        <div class="instructorphoto"><img src="figures/relja.jpg"></div>
+        <div>Relja Arandjelović<br>DeepMind</div>
+        </a>
+      </div>
+
+    </div>
+    <p></p>
+</div>
+
+</br>
+
+<div class="container">
+  <!-- </br> -->
+    <div class="overview">
+      <p>Over the last few years, deep learning-based methods have achieved impressive results on image understanding problems. However, real-world vision applications often require models that are able to learn with few or no annotated data. Unfortunately, classic supervised deep learning methods are unable to do that. Furthermore, there is an increased interest for learning image understanding models that can adapt to a wide range of tasks in a data-efficient way, are robust to domain shifts and adversarial perturbations, and are more aligned to how humans see. Such models may require, among other things, a richer training signal than what classic supervised techniques can offer when they rely on image/video-wise category annotations, which is the cheapest and thus the most commonly used type of human annotations. Therefore, one of the next big challenges in computer vision is to devise approaches that would address these important shortcomings.</p>
+
+      <p>An important and active research approach for achieving this goal is self-supervised / unsupervised learning. Indeed, the last two years there has been a lot of exciting progress in this area, with many new self-supervised pre-training methods managing to match or even surpass the performance of supervised pre-training. In this tutorial we will provide an in-depth coverage of the various paradigms for self-supervised learning and their recent breakthroughs. Specifically, the tutorial will cover the following subjects <strong>(1)</strong> contrastive-based self-supervised learning, <strong>(2)</strong> teacher-student schemes for self-supervised learning, <strong>(3)</strong> clustering-style self-supervised learning, and <strong>(4)</strong> multi-modal self-supervised learning.</p>
+    </div>
+</div>
+
+</br>
+<!-- 1:15 pm - 5:00 pm -->
+<div class="container">
+  <h2>Schedule</h2>
+<!-- </br> -->
+    <div class="Tentative schedule">
+        <p><span class="announce_date">10:00 - 10:30 EDT (16:00 - 16:30 CET) </span>. <strong>Introduction</strong> by <em>Andrei Bursuc</em> and <em>Spyros Gidaris</em> [<a target="blank" href="https://youtu.be/MdD4UMshl1Q">video</a>]  [<a target="blank" href="https://abursuc.github.io/slides//2021-cvpr-ssl/ssl-intro.html">slides</a>] </p>
+        <p><span class="announce_date">10:35 - 11:00 PDT (16:35 - 17:00 CET) </span>. <strong>Contrastive learning</strong> by <em>Aäron van den Oord</em> [<a target="blank" href="https://youtu.be/MdD4UMshl1Q?t=2094">video</a>] </p>
+        <p><span class="announce_date">11:05 - 12:00 EDT (17:05 - 18:00 CET) </span>. <strong>Teacher-student approaches</strong> by <em>Spyros Gidaris</em> and <em>Andrei Bursuc</em>   [<a target="blank" href="https://youtu.be/MdD4UMshl1Q?t=4159">video</a>] [<a target="blank" href="slides/teacher_student.pdf">slides</a>] </p>
+        <p><span class="announce_date">12:05 - 12:50 EDT (18:05 - 18:50 CET) </span>. <strong>Clustering-style self-supervised learning</strong> by <em>Mathilde Caron </em>  [<a target="blank" href="https://youtu.be/MdD4UMshl1Q?t=7220">video</a>] [<a target="blank" href="slides/cvpr21ssl_mathildecaron_slides.pdf">slides</a>] </p>
+        <p><span class="announce_date">12:55 - 13:50 EDT (18:55 - 19:50 CET) </span>. <strong>Multi-modal approaches</strong> by <em>Jean-Baptiste Alayrac</em> and <em>Adrià Recasens</em> [<a target="blank" href="https://youtu.be/MdD4UMshl1Q?t=9996">video</a>] [<a target="blank" href="https://docs.google.com/presentation/d/e/2PACX-1vRuZzdUZyqUZrGCURaS7tGbef3OBkfFiBG7H0NdpA9n9pFnyhebaS3ihX-mxtt70CyB74VHcXQHqnoW/pub?start=false&loop=false&delayms=3000&slide=id.ge0cc15bdb5_0_33">slides</a>] </p>
+        <p><span class="announce_date">13:55 - 14:30 EDT (19:55 - 20:30 CET) </span>. <strong>"What is next?"</strong> by <em>Andrei Bursuc</em> [<a target="blank" href="https://youtu.be/MdD4UMshl1Q?t=13594">video</a>]  [<a target="blank" href="https://abursuc.github.io/slides//2021-cvpr-ssl/ssl-next.html">slides</a>] </p>
+    </div>
+</div>
+
+</br>
+<!-- 1:15 pm - 5:00 pm -->
+
+<div class="containersmall">
+    <p>Please contact <a href="mailto:spyros.gidaris@valeo.com">Spyros Gidaris</a> if you have questions. </p>
+    <p>This webpage template is by courtesy of <a href="https://gkioxari.github.io">Georgia Gkioxari</a>.</p>
+</div>
+
+<p align="center" class="acknowledgement">Last updated: 24 June 2021</p>
+</body>
+</html>
