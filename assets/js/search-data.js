@@ -46,6 +46,9 @@ ninja.data = [{
           section: "News",},{id: "news-three-papers-accepted-to-neurips-2025-one-spotlight-redi-spotlight-dino-foresight-and-mutor-thread-x-bluesky",
           title: 'Three papers accepted to NeurIPS 2025 (one spotlight)! ReDi (spotlight), DINO-Foresight, and MuToR....',
           description: "",
+          section: "News",},{id: "news-gave-a-talk-on-latent-representations-for-better-generative-modeling-at-the-50th-pattern-recognition-and-computer-vision-colloquium-czech-technical-university-ctu-prague-czech-republic",
+          title: 'Gave a talk on “Latent Representations for Better Generative Modeling” at the 50th Pattern Recognition...',
+          description: "",
           section: "News",},{
         id: 'social-bluesky',
         title: 'Bluesky',
