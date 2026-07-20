@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Three papers accepted to ECCV 2026. [Re2Pix](https://arxiv.org/abs/2604.11707) and [CoReDi](https://arxiv.org/abs/2604.17492).
+Two papers accepted to ECCV 2026. [Re2Pix](https://arxiv.org/abs/2604.11707) and [CoReDi](https://arxiv.org/abs/2604.17492).
