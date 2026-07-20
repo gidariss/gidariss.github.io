@@ -55,8 +55,8 @@ ninja.data = [{
           section: "News",},{id: "news-two-papers-accepted-to-cvpr-2026-franca-and-drivor",
           title: 'Two papers accepted to CVPR 2026 Franca and DrivoR.',
           description: "",
-          section: "News",},{id: "news-three-papers-accepted-to-eccv-2026-re2pix-and-coredi",
-          title: 'Three papers accepted to ECCV 2026. Re2Pix and CoReDi.',
+          section: "News",},{id: "news-two-papers-accepted-to-eccv-2026-re2pix-and-coredi",
+          title: 'Two papers accepted to ECCV 2026. Re2Pix and CoReDi.',
           description: "",
           section: "News",},{
         id: 'social-bluesky',
